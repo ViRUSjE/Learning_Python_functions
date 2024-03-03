@@ -7,6 +7,6 @@ def d6(num):
         print(f"Throw result: {a}")
         result += a
 
-    return f"The sum of throws is {result}"
+    return f"The sum of throws: {result}"
 
 print(d6(2))
