@@ -1,6 +1,7 @@
 def get_data():
     pesel = input("Enter your pesel number: ")
     return pesel
+
 def valid_pesel(pesel):
     weights = [1, 3, 7, 9, 1, 3, 7, 9, 1, 3]
 
