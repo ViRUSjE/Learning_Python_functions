@@ -23,4 +23,5 @@ def valid_pesel(pesel):
         return False
 
 pesel = get_data()
+
 print(valid_pesel(pesel))
